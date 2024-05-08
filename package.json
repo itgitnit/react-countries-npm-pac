@@ -18,6 +18,9 @@
     "type": "git",
     "url": "https://github.com/itgitnit/react-countries-npm-pac"
   },
+  "bugs": {
+    "url": "https://github.com/itgitnit/react-countries-npm-pac/issues"
+  },
   "dependencies": {
     "react": "^18.3.1",
     "react-dom": "^18.3.1"
