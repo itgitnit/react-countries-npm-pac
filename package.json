@@ -1,0 +1,25 @@
+{
+  "name": "react-countries-npm-pac",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "this is an NPM package to fetch you the countries details",
+  "main": "dist/index.js",
+  "scripts": {
+    "build:dev": "rollup -c --environment NODE_ENV:development",
+    "build": "rollup -c --environment NODE_ENV:production"
+  },
+  "keywords": [
+    "react",
+    "coutries"
+  ],
+  "author": "Nikhil Thakur",
+  "license": "ISC",
+  "dependencies": {
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  },
+  "devDependencies": {
+    "@rollup/plugin-terser": "^0.4.4",
+    "rollup": "^4.17.2"
+  }
+}
